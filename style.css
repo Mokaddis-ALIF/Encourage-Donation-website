@@ -125,6 +125,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: 60px;
 }
 
 #fname {
@@ -133,12 +134,17 @@ body {
 	border-width: 0 0 2px;
 	border-color: #dadada;
 	text-align: center;
+	padding-bottom: 10px;
+}
+
+#fname::placeholder {
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 28px;
-	padding-bottom: 10px;
+
+	color: #b3b3b3;
 }
 
 .third-banner {
