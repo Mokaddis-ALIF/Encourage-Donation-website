@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster&family=Manrope&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster&family=Manrope&family=Poppins&family=Roboto:wght@500&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -11,6 +11,7 @@ body {
 	font-family: 'Lobster', cursive;
 	font-family: 'Manrope', sans-serif;
 	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .main-banner {
@@ -186,11 +187,6 @@ body {
 	gap: 20px;
 }
 
-.third-banner-card-img {
-	width: 58.13px;
-	height: 49.77px;
-}
-
 .third-banner-card {
 	display: flex;
 	flex-direction: column;
@@ -199,6 +195,7 @@ body {
 	width: 360px;
 	height: 352px;
 	border-radius: 5px;
+	padding-left: 20px;
 }
 
 .third-banner-card-title {
@@ -224,6 +221,11 @@ body {
 	color: #707070;
 }
 
+.third-banner-card-img {
+	width: 58.13px;
+	height: 49.77px;
+}
+
 #third-banner-card-1 {
 	background: rgba(79, 157, 166, 0.1);
 }
@@ -234,6 +236,46 @@ body {
 
 #third-banner-card-3 {
 	background: #fff4d6;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 40px 20px 0 20px;
+}
+
+.container .heading {
+	width: 50%;
+	padding-bottom: 50px;
+}
+.container .heading h3 {
+	font-size: 3em;
+	font-weight: bolder;
+	padding-bottom: 10px;
+}
+
+.container .heading h3 span {
+	font-weight: 100;
+}
+.container .box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.container .box .dream {
+	display: flex;
+	flex-direction: column;
+	width: 32.5%;
+}
+
+.container .box .dream img {
+	width: 100%;
+	padding-bottom: 15px;
+	border-radius: 5px;
 }
 
 .update-banner {
@@ -270,7 +312,12 @@ body {
 }
 
 .update-banner-form {
+	width: 900px;
+	height: 100%;
+	background: #fff4d6;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin-top: 80px;
 	margin-bottom: 100px;
 }
@@ -284,6 +331,16 @@ body {
 	background: #d9d9d9;
 	border-radius: 5px 0px 0px 5px;
 	padding-left: 10px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+#femail::placeholder {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
 }
 
 footer {
